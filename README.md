@@ -148,6 +148,6 @@ docker compose exec airflow-worker cat /opt/airflow/logs/dag_id=hello_world_etl/
 3. Provide screenshots:
    - Airflow UI with all tasks succeeded (green)
    - SQL output from `demo.hello_events`  
-4. Submit the screenshots + a short note describing how you ran it.
-
+4. Send the screenshots + a short note describing how you ran it. Telegram username: @t_soldatov
+   
 ---
