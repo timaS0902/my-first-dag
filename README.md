@@ -62,10 +62,20 @@ docker compose up airflow-init
 docker compose up -d
 ```
 
-### 4. Access the Web UI
+### 4. Copy file 
+
+Create a new file and copy the code from hello_world_etl.example.py in the dags folder.
+
+### 5. Access the Web UI
 
 Open: [http://localhost:8081](http://localhost:8081)  
 Credentials: **airflow / airflow**
+
+### 6. Restart airflow-scheduler
+
+```bash
+docker compose restart airflow-scheduler
+```
 
 ---
 
